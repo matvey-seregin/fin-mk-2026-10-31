@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="713a9091-2706-4f1c-88a6-4438a09e7e4f">
+  <producedTypes>
+    <objectType typeId="ae1a6e2d-0d59-44f1-8813-103fc7358991" valueTypeId="fc912569-1bd3-4e43-93e8-5c37d6cc9b4b"/>
+    <managerType typeId="3781b68b-5dcc-4e72-8fde-6272df2c7958" valueTypeId="2d7be04a-9df3-4d3a-a340-3e1d061e2906"/>
+  </producedTypes>
+  <name>ИсторияРемонта</name>
+  <synonym>
+    <key>ru</key>
+    <value>История ремонта</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ИсторияРемонта.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="fe06973c-2c65-4350-88ef-804d302ae86c">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

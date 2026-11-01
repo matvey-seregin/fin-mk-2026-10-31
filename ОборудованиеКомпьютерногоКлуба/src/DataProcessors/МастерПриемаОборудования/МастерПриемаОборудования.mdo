@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26995a7d-e38c-4142-bbd0-7a7753d5be36">
+  <producedTypes>
+    <objectType typeId="7634c2ec-db0a-4237-8d30-d22e24cc469e" valueTypeId="b7a92211-7abe-4625-886f-fe7bce6ed120"/>
+    <managerType typeId="09af5cff-1b68-4180-adfb-944766d74f9a" valueTypeId="620d86f8-7aa3-47d3-ab6e-c546a89fca85"/>
+  </producedTypes>
+  <name>МастерПриемаОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прием нового оборудования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.МастерПриемаОборудования.Form.Форма</defaultForm>
+  <tabularSections uuid="f71eb029-8ec0-4e15-a1de-a0feb3c18f80">
+    <producedTypes>
+      <objectType typeId="dae4ae8a-0894-45f6-8f11-46c83e0fdbf3" valueTypeId="6113f01c-c0d6-4f28-a5da-ce4a131d6de3"/>
+      <rowType typeId="f06a8236-3034-4ba5-be34-193bf4d76351" valueTypeId="a8784909-ad2c-497f-a581-1b119dd06a32"/>
+    </producedTypes>
+    <name>СоставПрихода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав прихода</value>
+    </synonym>
+    <attributes uuid="9bf5a0ec-d793-4901-a59a-6ddf51d47247">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="e5efa506-ca3f-4a3f-9c34-52f5a70d9227">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="36f623ad-c2a0-42dd-b0ff-f34f4bc395c8">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="452157fa-ecb6-4663-b4d7-0bdb6a45c284">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="b4a2bb37-39de-4f8e-bd86-9a1b622a1977">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прием нового оборудования</value>
+    </synonym>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="632fa1f7-ebec-429c-88b0-e68da6c92113">
+  <producedTypes>
+    <objectType typeId="b339a702-32cf-4ea0-98f9-8bff5510f089" valueTypeId="78fef387-8fc9-458c-bdf7-813ee3409df1"/>
+    <refType typeId="385e5d05-bcf1-4d4c-a7cf-076087444f5e" valueTypeId="d340e242-6128-45d3-8a6d-1670e518bafa"/>
+    <selectionType typeId="f916d8f3-cb83-4b91-b18a-8246300fb940" valueTypeId="77025fed-2c54-4405-ac02-200449abfa8a"/>
+    <listType typeId="1ee671ed-c767-4b30-8303-b8763437167c" valueTypeId="e540a7dd-c422-42be-b4fc-32a7f5e6e6d7"/>
+    <managerType typeId="8986ce3f-fee3-4003-bc17-5c5fe4953557" valueTypeId="def58703-c2e9-4286-be84-0b240560f4d2"/>
+  </producedTypes>
+  <name>ПлановоеТО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Плановое ТО</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Плановое ТО</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Плановое ТО</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="c7f2e4c7-d2bf-40cc-bb32-321ee83c3ac4">
+    <name>РабочееМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее место</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РабочиеМеста</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="20d9c5d9-1a1f-472e-b89c-273b9e21753a">
+    <name>ВидОбслуживания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид обслуживания</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыОбслуживания</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a0558c75-fbf1-4a0f-be26-d1271d2da36e">
+    <name>ПлановаяДата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плановая дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="afc5e249-21a4-47d9-b6a4-036197378214">
+    <name>ДатаВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата выполнения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a6cad3a1-caab-4d90-9a21-6f802809c9ae">
+    <name>Выполнено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнено</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f70caeb6-c508-4389-81c2-c09b3e087b6a">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

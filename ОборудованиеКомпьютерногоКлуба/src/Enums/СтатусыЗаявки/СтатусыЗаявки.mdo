@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4dd62444-bd86-42c1-b918-6df0634e9801">
+  <producedTypes>
+    <refType typeId="6d051364-9442-4caa-9669-817a0467c9da" valueTypeId="eb0219d6-703b-4eea-a6af-7e7518a1a189"/>
+    <listType typeId="7b82aab0-2455-42ea-baa9-2880198318a8" valueTypeId="f182fd49-efe9-4bfe-a655-af956f6c18f2"/>
+    <managerType typeId="412aa6fc-1a63-4408-9360-a1b01d92f531" valueTypeId="7c1c5812-44d4-4e32-8b72-c0632e6b6a62"/>
+  </producedTypes>
+  <name>СтатусыЗаявки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы заявки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="25400d36-6587-489b-ba05-5be66d4dc33b">
+    <name>Новая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="764cbf8c-0200-4546-9575-62e506dd2a2f">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3d5a19de-421a-494e-8030-6d7999db93ec">
+    <name>ОжидаетЗапчасти</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидает запчасти</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b75fd73c-b70f-439e-bd0e-d969e133b6da">
+    <name>Закрыта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="776de5b7-fd39-4325-bc77-e577ebf795ee">
+    <name>Отменена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменена</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

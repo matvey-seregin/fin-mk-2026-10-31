@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8de5356-570a-4084-89c4-2be3135a7af1">
+  <producedTypes>
+    <refType typeId="d25e97fa-e1e1-4268-8494-344f72c322ef" valueTypeId="ffc03675-5599-4577-94a1-6981ac6881fa"/>
+    <listType typeId="1b55657a-a55e-43fc-ac76-30219c6f3d07" valueTypeId="4f0ffa37-0974-4e4b-80f0-10a44abe61a7"/>
+    <managerType typeId="4ffbb28d-688b-4cc9-a1ed-b55f9754221c" valueTypeId="07b0fdc2-159c-4855-97ed-c3415b931d6a"/>
+  </producedTypes>
+  <name>ВидыНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды номенклатуры</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="85e99c07-d98e-4f15-beb8-5e6666641319">
+    <name>Комплектующее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комплектующее</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="46e08560-8936-4a58-baf0-56bd80bd788c">
+    <name>Периферия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периферия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="47921cc3-84c0-43c4-93a9-3234707c78b2">
+    <name>РасходныйМатериал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расходный материал</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

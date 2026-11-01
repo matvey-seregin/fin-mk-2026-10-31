@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="42b44b0f-b883-4c8c-bf08-bf373f54f432">
+  <name>ОборудованиеКомпьютерногоКлуба</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оборудование компьютерного клуба</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="529954ba-bb22-4306-a418-7f1faa5a2a4a"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="4fd6e010-36aa-4468-bc2f-3c392b8294eb"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="a579eb6e-1a65-4f4c-ab87-69d189b81ee5"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="341c1d28-e290-4f33-ab4a-918e1a16d28d"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="ba35009f-8616-4380-b36a-6b0c0f95bfbf"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="1806db39-c659-45b3-8adf-eb7a0302116d"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="c50a5683-0e09-4a22-98f3-d51a516af208"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Серегин Матвей</vendor>
+  <version>1.0.0.1</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <copyright>
+    <key>ru</key>
+    <value>Серегин Матвей</value>
+  </copyright>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.5.1</compatibilityMode>
+  <languages uuid="8a3492d0-6902-44e1-8931-44350c33a20d">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.УчетКлуба</subsystems>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Лицензии</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Оборудование</catalogs>
+  <catalogs>Catalog.РабочиеМеста</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <documents>Document.Заявка</documents>
+  <documents>Document.ПлановоеТО</documents>
+  <documents>Document.ПриходНаСклад</documents>
+  <documents>Document.СписаниеЗапчастей</documents>
+  <enums>Enum.ВидыНоменклатуры</enums>
+  <enums>Enum.ВидыОбслуживания</enums>
+  <enums>Enum.ВидыОперацийПрихода</enums>
+  <enums>Enum.СостоянияSMART</enums>
+  <enums>Enum.СостоянияРабочегоМеста</enums>
+  <enums>Enum.СтатусыЗаявки</enums>
+  <reports>Report.ИсторияРемонта</reports>
+  <reports>Report.ОстаткиЗапчастей</reports>
+  <reports>Report.ПаспортРабочегоМеста</reports>
+  <reports>Report.СрокиЛицензий</reports>
+  <dataProcessors>DataProcessor.ЗагрузкаДемоДанных</dataProcessors>
+  <dataProcessors>DataProcessor.МастерПриемаОборудования</dataProcessors>
+  <informationRegisters>InformationRegister.ЗамерыОборудования</informationRegisters>
+  <informationRegisters>InformationRegister.РазмещениеОборудования</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиЗапчастей</accumulationRegisters>
+</mdclass:Configuration>

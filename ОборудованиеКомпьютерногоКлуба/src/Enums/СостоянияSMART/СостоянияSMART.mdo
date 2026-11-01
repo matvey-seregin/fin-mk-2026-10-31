@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99df2cc7-ff3f-4ade-b7f5-4780915cdff7">
+  <producedTypes>
+    <refType typeId="d78077bb-2613-4d2e-ac7a-fabe90dbf089" valueTypeId="a576a1b9-0971-47d3-819a-e8d578f90c23"/>
+    <listType typeId="f9037690-9a4d-43b2-b6c0-461599523942" valueTypeId="e5b491c5-067f-4291-bb07-61bdd1000491"/>
+    <managerType typeId="e8b1d9e1-dc8b-4591-9e63-c3adb179ddec" valueTypeId="e8780901-ae53-4b10-8685-b53dff96a9d5"/>
+  </producedTypes>
+  <name>СостоянияSMART</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния SMART</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="bb0e8d21-b487-40cd-a2df-ac57268ff441">
+    <name>Норма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Норма</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2fab13ef-5476-4f55-b979-b1dcc8c952ae">
+    <name>Предупреждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предупреждение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0ab8eb50-7caf-4a5f-86a0-d27e1cc0d77e">
+    <name>Критично</name>
+    <synonym>
+      <key>ru</key>
+      <value>Критично</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6245bec8-dc57-498f-8332-dd58c6f601d4">
+  <producedTypes>
+    <selectionType typeId="e93937dc-b68f-4e18-b7d0-bd0b3609c6c6" valueTypeId="32fd4358-8b45-401d-969b-c5b700133028"/>
+    <listType typeId="b607658a-1068-4412-9ea0-a784933c1505" valueTypeId="21147744-e451-4401-be73-7090c83d147f"/>
+    <managerType typeId="07217dc8-35e6-4b24-9e79-d762cb97029d" valueTypeId="4b002d1e-ad7b-4875-bb3b-1a5ff1d3830f"/>
+    <recordSetType typeId="f1083e29-78d8-4004-b70a-9b8fdfdf92d0" valueTypeId="b0a0c58d-db25-451c-ace9-9ceb9cc42dc2"/>
+    <recordKeyType typeId="0315960b-2916-46b9-9884-388335eb92fd" valueTypeId="69682249-7cf8-4a8d-9007-d59553958417"/>
+    <recordType typeId="386e224f-0ddf-44e9-8820-4846655e26fb" valueTypeId="c01fb0dc-820a-4465-8740-b0de7f8574b7"/>
+    <recordManagerType typeId="e2fff8c5-0c6f-43a6-80a2-dfa0aa3d639c" valueTypeId="7a133b5f-0578-41b5-af8d-985f71a0b664"/>
+  </producedTypes>
+  <name>ЗамерыОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Замеры оборудования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Замеры оборудования</value>
+  </listPresentation>
+  <resources uuid="3036f606-cc48-4374-8564-6b2f183f1331">
+    <name>Температура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Температура</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>1</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c44e4f50-c41f-4467-aa4c-62778fe2df5b">
+    <name>СостояниеSMART</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние SMART</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СостоянияSMART</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="053201a1-8946-4abc-b709-a47c108ade49">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="abdc1afa-45c1-40ff-88cf-65e4994e0b7b">
+    <name>Оборудование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оборудование</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Оборудование</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

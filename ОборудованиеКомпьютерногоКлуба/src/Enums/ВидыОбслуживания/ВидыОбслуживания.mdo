@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="763b1d4b-d672-4484-9fa7-250e9c7208b9">
+  <producedTypes>
+    <refType typeId="3ee75241-fc24-4e9a-b2f8-19284d5cbe13" valueTypeId="36424efd-b935-42da-9846-4861d58c5b39"/>
+    <listType typeId="7a99f166-df9a-4cd1-9fb7-129cd453284f" valueTypeId="c2223fb3-85de-4e50-8ab7-220b6770a3ec"/>
+    <managerType typeId="aad9a145-5d3f-4e7a-8558-32deb4431e8f" valueTypeId="1cd2c0aa-7b44-44b4-8f62-c0ac9b86ce51"/>
+  </producedTypes>
+  <name>ВидыОбслуживания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды обслуживания</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ebe4069a-69ca-4b16-8630-28d2739ea079">
+    <name>Чистка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чистка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5887d453-d881-40d9-b3f7-2df4dbac237f">
+    <name>ЗаменаТермопасты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замена термопасты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="df2d4619-1643-4e8b-9b44-f033eaeafb3a">
+    <name>ОбновлениеПО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление ПО</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3c5f052e-52b9-4a3f-a76c-7e6466e22487">
+    <name>Диагностика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диагностика</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

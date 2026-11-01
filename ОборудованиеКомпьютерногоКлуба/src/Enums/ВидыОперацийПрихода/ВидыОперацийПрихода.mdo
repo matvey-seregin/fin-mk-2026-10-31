@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e231b53a-ebb2-4a89-9b99-61a5cd63fe45">
+  <producedTypes>
+    <refType typeId="262e3222-b4f1-4461-b351-a1b711e77c55" valueTypeId="0cedf3e7-6a3b-43a9-b80c-0978c10d7a7e"/>
+    <listType typeId="6fbdbd2b-673f-4b0f-87db-abc8c0846fad" valueTypeId="596a4227-62b6-4934-a914-15288df3affb"/>
+    <managerType typeId="feaa4c58-93ea-4614-9ee8-487031829778" valueTypeId="953f2e17-6416-41a2-9c51-b61761ec880d"/>
+  </producedTypes>
+  <name>ВидыОперацийПрихода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций прихода</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f8912014-a31f-4627-a660-5b1f6a826134">
+    <name>ПоступлениеОтПоставщика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление от поставщика</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0ab15982-d973-4be7-a3a7-d592a905f4ac">
+    <name>РазборОборудования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разбор оборудования</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c72567ae-ec6c-4cc9-be7a-81737a303871">
+    <name>ВозвратИзРемонта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат из ремонта</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

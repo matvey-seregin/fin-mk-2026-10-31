@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2eeac99-f4fa-4977-900f-c4a5c4b3a7ca">
+  <name>УчетКлуба</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление клубом</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.РабочиеМеста</content>
+  <content>Catalog.Оборудование</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.Сотрудники</content>
+  <content>Catalog.Лицензии</content>
+  <content>Document.Заявка</content>
+  <content>Document.ПриходНаСклад</content>
+  <content>Document.СписаниеЗапчастей</content>
+  <content>Document.ПлановоеТО</content>
+  <content>AccumulationRegister.ОстаткиЗапчастей</content>
+  <content>InformationRegister.РазмещениеОборудования</content>
+  <content>InformationRegister.ЗамерыОборудования</content>
+  <content>Report.ПаспортРабочегоМеста</content>
+  <content>Report.ОстаткиЗапчастей</content>
+  <content>Report.ИсторияРемонта</content>
+  <content>Report.СрокиЛицензий</content>
+  <content>DataProcessor.ЗагрузкаДемоДанных</content>
+  <content>DataProcessor.МастерПриемаОборудования</content>
+</mdclass:Subsystem>

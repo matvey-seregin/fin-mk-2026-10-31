@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf4e0ca9-63ad-4dcf-851d-5f4150d5e86c">
+  <producedTypes>
+    <objectType typeId="6d4d3a11-f1e8-4c81-b1a4-6ac2aad39aa3" valueTypeId="610efed5-c639-4aea-bc07-a05f87e719f6"/>
+    <managerType typeId="ebd96216-8670-45f0-8d69-6c49550935ed" valueTypeId="bd845fe0-b23a-4f63-94eb-4d4fbd6d2494"/>
+  </producedTypes>
+  <name>ЗагрузкаДемоДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка демо-данных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаДемоДанных.Form.Форма</defaultForm>
+  <forms uuid="ff43347c-c6cc-4bab-8dd4-4ac87abdf36a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка демо-данных</value>
+    </synonym>
+  </forms>
+</mdclass:DataProcessor>
